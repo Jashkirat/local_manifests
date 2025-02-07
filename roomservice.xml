@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device Tree -->
+    <project name="Jashkirat/device_xiaomi_spes" path="device/xiaomi/spes" remote="github" revision="15-alpha" />
+
+    <!-- Vendor -->
+    <project name="sayann70/vendor_xiaomi_spes" path="vendor/xiaomi/spes" remote="github" revision="15" />
+
+    <!-- Kernel -->
+    <project name="muralivijay/kernel_xiaomi_sm6225" path="kernel/xiaomi/sm6225" remote="github" revision="main" />
+
+    <!-- Hardware/Xiaomi -->
+    <project name="spes-development/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="15.0" />
+
+    <!-- MiuiCamera (Leica 5.0) -->
+    <project name="ItzDFPlayer/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="gitlab" revision="leica-5.0" />
+</manifest>
+
